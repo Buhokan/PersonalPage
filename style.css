@@ -164,7 +164,6 @@ body {
 
 .contacto-contenedor p {
     color: white;
-  background-color: #9502cf;
   border-radius: 10px;
   padding: 10px;
   margin: 0px 5px;
@@ -172,10 +171,14 @@ body {
 }
 
 .contacto-item a {
+  display: inline-block;
+  background-color: #9502cf;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
 }
 
 .boton {
@@ -199,8 +202,34 @@ body {
   margin-top: 20px;
 }
 
+.boton-inicio {
+  color: white;
+  bottom: 20px;
+  left: 20px; 
+  font-size: 28px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; 
+  text-decoration: none; 
+  background-color: #9502cf;
+  margin: px;
+}
 
 
+
+footer {
+    background: radial-gradient(circle, #7f0099, #4d1363);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 16px;
+  margin-top: 50px;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  
+}
 
 
 /* ANIMACIONES */
