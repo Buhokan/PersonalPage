@@ -165,8 +165,8 @@ body {
 .contacto-contenedor p {
     color: white;
   border-radius: 10px;
-  padding: 10px;
-  margin: 0px 5px;
+  padding: 0;
+  margin: 0;
   
 }
 
