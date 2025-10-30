@@ -125,6 +125,12 @@ body {
   padding: 20px;
   width: 40%;
   max-width: 450px;
+  
+}
+
+.habilidad:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(149, 2, 207, 0.5);
 }
 
 .habilidad img {
@@ -203,6 +209,7 @@ body {
 }
 
 .boton-inicio {
+  position: fixed;
   color: white;
   bottom: 20px;
   left: 20px; 
@@ -230,6 +237,74 @@ footer {
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   
 }
+
+/* SECCIÓN DE PROYECTOS */
+
+.proyectos-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.proyecto {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(149, 2, 207, 0.5);
+}
+
+.proyecto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info-proyecto {
+  padding: 20px;
+  text-align: left;
+}
+
+.info-proyecto h3 {
+  color: #bb5fff;
+  margin-bottom: 10px;
+}
+
+.info-proyecto p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.botones-proyecto {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.botones-proyecto a {
+  background-color: #9502cf;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botones-proyecto a:hover {
+  background-color: #b347e6;
+}
+
 
 
 /* ANIMACIONES */
